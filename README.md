@@ -1,4 +1,54 @@
+# ReactBobio
+
+Sample project that shows how to build a Passengers APP with React, Redux (State Management) and Material UI.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project shows you how to:
+
+    * Use React, Redux and Material UI.
+    * Show passengers cards.
+    * Add new passenger.
+
+Technologies: React, React Redux, Material UI, JavaScript.
+
+![Technologies](readme_resources/technologies.jpg "Technologies")
+
+## App Example
+
+![App](readme_resources/app.gif "App")
+
+## Options for testing the server side
+
+----------
+
+## Start mongo & import passengers json
+
+```bash
+    $ mongod
+    $ mongoimport --jsonArray --db dbName --collection collectionName --file passengers.json
+```
+
+## Start nodejs server (PASSENGERS REST API)
+
+```bash
+    install dependencies:
+    $ cd server/express-mongoose-bobio && npm install
+
+    run the app:
+    $ DEBUG=express-mongoose-bobio:* npm start
+```
+
+## Start fake json server (PASSENGERS REST API)
+
+```bash
+    $ cd json-server 
+    $ json-server --watch db.json --port 5656
+```
+
+* [json server](https://github.com/typicode/json-server)
+
+----------
 
 ## Available Scripts
 

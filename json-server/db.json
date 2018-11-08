@@ -1,0 +1,44 @@
+{
+    "passengers": [
+        {
+            "name": "John Doe",
+            "bags": 5
+        },
+        {
+            "name": "Luis Pérez",
+            "bags": 3
+        },
+        {
+            "name": "Laura García",
+            "bags": 10
+        },
+        {
+            "name": "Clara Lago",
+            "bags": 1
+        },
+        {
+            "name": "Susana Ruiz",
+            "bags": 3
+        },
+        {
+            "name": "Mark Doe",
+            "bags": 7
+        },
+        {
+            "name": "Sebastián Herrera",
+            "bags": 1
+        },
+        {
+            "name": "Pepe Gil",
+            "bags": 2
+        },
+        {
+            "name": "Alfonos Sánchez",
+            "bags": 2
+        },
+        {
+            "name": "Carmen Puig",
+            "bags": 2
+        }
+    ]
+}
